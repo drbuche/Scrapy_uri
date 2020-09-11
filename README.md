@@ -48,3 +48,6 @@ scrapy runspider main_faculdades.py -o rank_facul_uri.csv
   - Isso criara um arquivo .csv, o qual você pode abrir no Excel para organizar e visualizar os dados (lembrando que o scraping é feito de forma não sequencial, então os registros estarão desordenados entre si, não seguindo a sequencia do rank).
   
   
+#Dados:
+
+- [Tabela ‘Universidades’ completa .csv – atualizado em Sep/10/2020](https://mega.nz/file/UlczwA5Q#6lXxkdHmXN08O41aDd2_RSEPDLSQJk2BG1kkg97kRLc)
