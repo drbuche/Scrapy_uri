@@ -19,7 +19,7 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
 - [x] **Coletaremos o [rank de universidades](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_faculdades.py), o qual possui os seguintes atributos:**
     - Rank, Acrônimo_Instituição, Instituição, País, Exercícios_resolvidos e Número_estudantes.
     
-- [ ] **Coletaremos o rank de alunos, o qual possui os seguintes atributos:**
+- [x] **Coletaremos o rank de alunos, o qual possui os seguintes atributos:**
     - Rank, Nome_aluno, Acrônimo_Instituição, Pontos e Status.
     
 - [x] **Coletaremos o [rank de países](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_paises.py), o qual possui os seguintes atributos:**
