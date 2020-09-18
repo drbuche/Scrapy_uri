@@ -68,7 +68,7 @@ scrapy runspider main_modulo.py
   - Após isso, digite o comando: 
   
    ```sh
-scrapy runspider modulo.py -o modulo.csv
+scrapy runspider main_modulo.py -o modulo.csv
 ```
   - Isso criara um arquivo .csv, o qual você pode abrir no Excel para organizar e visualizar os dados (lembrando que o scraping é feito de forma não sequencial, então os registros estarão desordenados entre si, não seguindo a sequencia do rank).
   
@@ -77,3 +77,4 @@ scrapy runspider modulo.py -o modulo.csv
 
 - [Tabela ‘Universidades’ completa .csv – atualizado em Sep/10/2020](https://mega.nz/file/UlczwA5Q#6lXxkdHmXN08O41aDd2_RSEPDLSQJk2BG1kkg97kRLc)
 - [Tabela ‘Países’ completa .csv – atualizado em Sep/13/2020](https://mega.nz/file/h5NkTK6D#VwSaCGNB1GjPqWyJGxwrgcdjPHX7LzsU8HR-CZpkxhI)
+- [Tabela ‘Alunos’ completa .csv – atualizado em Sep/18/2020](https://mega.nz/file/IxF2mQZC#VIqyLktuDcKjw3c4HTMDw4STu0nSjOXAhm79X4zbq5I)
