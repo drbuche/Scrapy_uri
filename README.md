@@ -20,13 +20,18 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
     - Rank, Acrônimo_Instituição, Instituição, País, Exercícios_resolvidos e Número_estudantes.
     
 - [x] **Coletaremos o [rank de alunos](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_alunos.py), o qual possui os seguintes atributos:**
-    - Rank, Nome_aluno, Acrônimo_Instituição, Pontos e Status.
+    - Rank, Nome_aluno, Acrônimo_Instituição, url_perfil, Pontos e Status.
     
-- [x] **Coletaremos o [rank de países](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_paises.py), o qual possui os seguintes atributos:**
+- [x] **Coletaremos o [rank de países](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/inicio_aluno.py), o qual possui os seguintes atributos:**
     - Rank, País, Sigla, Exercícios_resolvidos e Número_estudantes.
+    
+- [x] **Coletaremos o [Data_cadastro](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_paises.py), o qual possui os seguintes atributos:**
+    - url_perfil, Data_cadastro.
 
-- [ ] **Futuramente montaremos um banco de dados relacional (provavelmente utilizando MySQL).** 
-- [ ] **Por fim, será realizada a análise dos dados.**
+- [ ] **Limpar dados.**
+- [ ] **Montar um banco de dados relacional (provavelmente utilizando MySQL).** 
+- [ ] **Por fim, será realizada a análise e projeção dos dados.**
+    - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn, Datetime: utilizando o Jupyter Notebook. 
 
 
 
@@ -75,6 +80,8 @@ scrapy runspider main_modulo.py -o modulo.csv
  
 # Dados:
 
-- [Tabela ‘Universidades’ completa .csv – atualizado em Sep/10/2020](https://mega.nz/file/UlczwA5Q#6lXxkdHmXN08O41aDd2_RSEPDLSQJk2BG1kkg97kRLc)
-- [Tabela ‘Países’ completa .csv – atualizado em Sep/13/2020](https://mega.nz/file/h5NkTK6D#VwSaCGNB1GjPqWyJGxwrgcdjPHX7LzsU8HR-CZpkxhI)
-- [Tabela ‘Alunos’ completa .csv – atualizado em Sep/18/2020](https://mega.nz/file/IxF2mQZC#VIqyLktuDcKjw3c4HTMDw4STu0nSjOXAhm79X4zbq5I)
+### Dados brutos:
+- [Tabela ‘Universidades’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/d8cUBBQI#9N7ZsJYsAwL779YhX0dFJIH5wYsAS1c17_80pSYUmWg)
+- [Tabela ‘Países’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/lsdkxLgT#5WTRm67zdgzhp_VjUjJNscDs6VvVAFt3bTYJaXvjsKw)
+- [Tabela ‘Alunos’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/wsFyhBCS#g1x-6ZvfbcfvELNhCjW6U0_m9aA_Qik9z0CI3ClBXBw)
+- [Tabela ‘Data_cadastro’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/BgNyibCS#ids2B58EuWRdl-4cg4fmKKFk3jwcsXZ7BlhHeZNmAOg)

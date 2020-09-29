@@ -5,7 +5,7 @@ from regex import *
 class UriRank(scrapy.Spider):
     name = 'uri'
     start_urls = []
-    for pagina in range(1, 100):
+    for pagina in range(1, 101):
         start_urls.append(f'https://www.urionlinejudge.com.br/judge/pt/universities?page={pagina}&direction=DESC')
 
     def parse(self, response):
