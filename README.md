@@ -22,10 +22,10 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
 - [x] **Coletaremos o [rank de alunos](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_alunos.py), o qual possui os seguintes atributos:**
     - Rank, Nome_aluno, Acrônimo_Instituição, url_perfil, Pontos e Status.
     
-- [x] **Coletaremos o [rank de países](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/inicio_aluno.py), o qual possui os seguintes atributos:**
+- [x] **Coletaremos o [rank de países](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_paises.py), o qual possui os seguintes atributos:**
     - Rank, País, Sigla, Exercícios_resolvidos e Número_estudantes.
     
-- [x] **Coletaremos o [Data_cadastro](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_paises.py), o qual possui os seguintes atributos:**
+- [x] **Coletaremos o [Data_cadastro](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/data_cadastro.py), o qual possui os seguintes atributos:**
     - url_perfil, Data_cadastro.
 
 - [ ] **Limpar dados.**
@@ -47,20 +47,23 @@ sudo apt-get update
    - Atualize o pip.
    ```sh
 pip install --upgrade pip 
-
-ou 
-
+# ou 
 pip3 install --upgrade pip
 ```
   - Instale o Scrapy.
    ```sh
 pip install scrapy
-
-ou
-
+# ou
 pip3 install scrapy
 ```
 
+  - Ou instale todas as dependências (recomendado):
+  
+   ```sh
+pip install -r requirements.txt
+# ou
+pip3 install -r requirements.txt
+```
 
 
 # Utilizando!
@@ -73,10 +76,10 @@ scrapy runspider main_modulo.py
   - Após isso, digite o comando: 
   
    ```sh
-scrapy runspider main_modulo.py -o modulo.csv
+scrapy runspider main_modulo.py -o nome_novo_arquivo.csv
 ```
   - Isso criara um arquivo .csv, o qual você pode abrir no Excel para organizar e visualizar os dados (lembrando que o scraping é feito de forma não sequencial, então os registros estarão desordenados entre si, não seguindo a sequencia do rank).
-  
+  - OBS: O [main_alunos.py](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_alunos.py) retorna um arquivo csv que serve de parâmetro para busca de [data_cadastro.py](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/data_cadastro.py), por esse motivo, execute primeiro o [main_alunos.py](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/main_alunos.py).
  
 # Dados:
 
