@@ -13,6 +13,12 @@ def remove_quenbr_rpvp(lista):  # adaptar para regex
     return y
 
 
+def remove_quenbr_rv(lista):  # adaptar para regex
+    x = lista.replace('\n', '')
+    y = x.replace('\t', '').replace(',', '')
+    return y
+
+
 def remove_quenbr_rp(lista):  # adaptar para regex
     x = lista.replace('\n', '')
     y = x.replace('\t', '').replace('.', '')

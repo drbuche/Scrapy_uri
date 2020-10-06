@@ -8,7 +8,7 @@ class UriRank(scrapy.Spider):
     start_urls = []
     url_alunos_perfil = []
 
-    for pagina in range(1, 11687):
+    for pagina in range(1, 11740):
         start_urls.append(f'https://www.urionlinejudge.com.br/judge/en/rank?page={pagina}')
 
         def parse(self, response):
@@ -34,7 +34,7 @@ class UriRank(scrapy.Spider):
                 except:
                     sigla = '-'
                 contadorfixo += 1
-                pontos = remove_quenbr_rpvp(pontosbruto[contadorfixo])
+                pontos = remove_quenbr_rv(pontosbruto[contadorfixo])
                 aluno_status = estudante_status[contadorfixo]
                 try:
                     pais = paisbruto[contadorfixo].replace('flag flag-', '')
