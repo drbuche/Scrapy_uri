@@ -15,7 +15,7 @@ class UriRank(scrapy.Spider):
             rankbruto = response.xpath('//tbody//tr//td//a/text()').getall()
             paisbruto = response.xpath('//tbody//tr//td//div/@class').getall()
             pontosbruto = response.xpath('//tbody//tr//td[@class="small"][2]/text()').getall()
-            estudante_status = response.xpath('//tbody//tr//td//span/@class').getall()
+            estudante_status = response.xpath('//span[contains(@class, "alive")]/@class').getall()
             link_perfil = response.xpath('//a[contains(@href, "/judge/en/profile")]/@href').getall()
             contadorfixo = -1
 
