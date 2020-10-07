@@ -29,6 +29,7 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
     - url_perfil, Data_cadastro.
 
 - [ ] **Limpar dados.**
+    - iniciado!
 - [ ] **Montar um banco de dados relacional (provavelmente utilizando MySQL).** 
 - [ ] **Por fim, será realizada a análise e projeção dos dados.**
     - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn, Datetime: utilizando o Jupyter Notebook. 
@@ -85,6 +86,6 @@ scrapy runspider main_modulo.py -o nome_novo_arquivo.csv
 
 ### Dados brutos:
 - [Tabela ‘Universidades’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/d8cUBBQI#9N7ZsJYsAwL779YhX0dFJIH5wYsAS1c17_80pSYUmWg)
-- [Tabela ‘Países’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/lsdkxLgT#5WTRm67zdgzhp_VjUjJNscDs6VvVAFt3bTYJaXvjsKw)
+- [Tabela ‘Países’ completa .csv – atualizado em Oct/07/2020](https://mega.nz/file/F0NUUTAT#_UpNs8G_pQZQCQa37Pqcr9wdqsHpP0sXUsis9twAW3A)
 - [Tabela ‘Alunos’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/wsFyhBCS#g1x-6ZvfbcfvELNhCjW6U0_m9aA_Qik9z0CI3ClBXBw)
 - [Tabela ‘Data_cadastro’ completa .csv – atualizado em Sep/28/2020](https://mega.nz/file/BgNyibCS#ids2B58EuWRdl-4cg4fmKKFk3jwcsXZ7BlhHeZNmAOg)
