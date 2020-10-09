@@ -31,6 +31,7 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
 - [ ] **Limpar dados.**
     - [Alunos](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar_alunos.ipynb)
     - [Países](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar_paises.ipynb)
+    - [Universidades](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar_faculdades.ipynb)
 - [ ] **Montar um banco de dados relacional (provavelmente utilizando MySQL).** 
 - [ ] **Por fim, será realizada a análise e projeção dos dados.**
     - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn, Datetime: utilizando o Jupyter Notebook. 
