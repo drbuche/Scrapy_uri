@@ -53,14 +53,8 @@ pip install --upgrade pip
 # ou 
 pip3 install --upgrade pip
 ```
-  - Instale o Scrapy.
-   ```sh
-pip install scrapy
-# ou
-pip3 install scrapy
-```
 
-  - Ou instale todas as dependências (recomendado):
+  - Instale as dependências:
   
    ```sh
 pip install -r requirements.txt
@@ -69,7 +63,7 @@ pip3 install -r requirements.txt
 ```
 
 
-# Utilizando!
+# Utilizando o Scrapy!
   - Dentro da pasta 'scrapy_uri', abra o terminal e execute o seguinte comando:
 ```sh
 scrapy runspider main_modulo.py
