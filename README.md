@@ -1,8 +1,8 @@
 [![N|Solid](https://i.imgur.com/qlKAwfC.jpg)](https://www.urionlinejudge.com.br/)
 
-# Scraping utilizando - Scrapy 
+# Scraping e Análise de Dados.
 
-##### Scraping dos ranks da Universidade Regional Integrada. 
+##### Scraping e análise de dados dos ranks da Universidade Regional Integrada. 
 
 # O que é a [URI](https://www.urionlinejudge.com.br/) Online Judge?
 
@@ -36,7 +36,12 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
 - [ ] **Por fim, será realizada a análise e projeção dos dados.**
     - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn, Datetime: utilizando o Jupyter Notebook. 
 
-
+### Ferramentas até o momento:
+    - Scrapy
+    - Numpy
+    - Pandas
+    - GeoPandas
+    - Matplotlib
 
 
 # Preparando o ambiente:
