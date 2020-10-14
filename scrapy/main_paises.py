@@ -26,12 +26,12 @@ class UriRank(scrapy.Spider):
             n_pais = rankbruto[loop + 1]
             contadorfixo += 1
             try:
-                pais = rankbruto[contadorfixo].replace('flag flag-', '')
+                pais = apenas_sigla_pais(rankbruto[contadorfixo])
             except:
-                pais = 'NA'
+                pais = 'NaN'
             ranknumero = int(ranknumerobruto[contadorfixo])
-            resolvido = remove_quenbr_rp(resolvidosbruto[contadorfixo])
-            estudantes = remove_quenbr_rp(estudantebruto[contadorfixo])
+            resolvido = apenas_pontos(resolvidosbruto[contadorfixo])
+            estudantes = apenas_pontos(estudantebruto[contadorfixo])
 
             yield {
                 'rank': ranknumero,

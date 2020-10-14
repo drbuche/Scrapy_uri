@@ -34,12 +34,12 @@ class UriRank(scrapy.Spider):
                 except:
                     sigla = '-'
                 contadorfixo += 1
-                pontos = remove_quenbr_rv(pontosbruto[contadorfixo])
+                pontos = apenas_pontos_float(pontosbruto[contadorfixo])
                 aluno_status = estudante_status[contadorfixo]
                 try:
-                    pais = paisbruto[contadorfixo].replace('flag flag-', '')
+                    pais = apenas_sigla_pais(paisbruto[contadorfixo])
                 except:
-                    pais = 'NA'
+                    pais = 'NaN'
                 self.url_alunos_perfil.append(link_perfil[contadorfixo])
 
                 yield {
