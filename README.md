@@ -29,13 +29,14 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
     - url_perfil, Data_cadastro.
 
 - [ ] **Limpar dados.**
-    - [Alunos](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar_alunos.ipynb)
-    - [Países](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar_paises.ipynb)
-        - [Visualizar Folium Maps](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/limpar_paises.ipynb)
-    - [Universidades](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar_faculdades.ipynb)
+    - [Alunos](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar/limpar_alunos.ipynb)
+    - [Países](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar/limpar_paises.ipynb)
+        - [Visualizar Folium Maps - Distribuição de Faculdades](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/trabalhar/heatmap/map_pais.ipynb)
+        - [Visualizar Folium Maps - Distribuição de Alunos](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/trabalhar/heatmap/map_alunos_pais.ipynb)
+    - [Universidades](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar/limpar_faculdades.ipynb)
 - [ ] **Montar um banco de dados relacional (provavelmente utilizando MySQL).** 
 - [ ] **Por fim, será realizada a análise e projeção dos dados.**
-    - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn, Datetime: utilizando o Jupyter Notebook. 
+    - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn...: utilizando o Jupyter Notebook. 
 
 ### Ferramentas até o momento:
     - Scrapy
