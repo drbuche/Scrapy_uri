@@ -27,23 +27,31 @@ Será realizado uma coleta de dados, tendo como base os ranks contidos no site [
     
 - [x] **Coletaremos o [Data_cadastro](https://github.com/drbuche/Scrapy_uri/blob/master/scrapy/data_cadastro.py), o qual possui os seguintes atributos:**
     - url_perfil, Data_cadastro.
-
-- [ ] **Limpar dados.**
+---
+- [x] **Limpar dados.**
     - [Alunos](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar/limpar_alunos.ipynb)
     - [Países](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar/limpar_paises.ipynb)
-        - [Visualizar Folium Maps - Distribuição de Faculdades](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/trabalhar/heatmap/map_pais.ipynb)
-        - [Visualizar Folium Maps - Distribuição de Alunos](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/trabalhar/heatmap/map_alunos_pais.ipynb)
     - [Universidades](https://github.com/drbuche/Scrapy_uri/blob/master/jupyter/limpar/limpar_faculdades.ipynb)
-- [ ] **Montar um banco de dados relacional (provavelmente utilizando MySQL).** 
+
+---
+    
+- [x] **Criar um [banco de dados relacional.](https://github.com/drbuche/Scrapy_uri/blob/master/mysql/uri_database.sql)** 
+
+---
+
 - [ ] **Por fim, será realizada a análise e projeção dos dados.**
-    - Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn...: utilizando o Jupyter Notebook. 
+    - [Visualizar Folium.Maps - Distribuição de Faculdades](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/trabalhar/heatmap/map_pais.ipynb)
+    - [Visualizar Folium.Maps - Distribuição de Alunos](https://nbviewer.jupyter.org/github/drbuche/Scrapy_uri/blob/master/jupyter/trabalhar/heatmap/map_alunos_pais.ipynb) 
 
 ### Ferramentas até o momento:
+    - Jupyter Notebook
     - Scrapy
     - Numpy
     - Pandas
     - GeoPandas
     - Matplotlib
+    - Folium
+    - Nominatim
 
 
 # Preparando o ambiente:
