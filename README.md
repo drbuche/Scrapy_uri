@@ -100,3 +100,9 @@ scrapy runspider main_modulo.py -o nome_novo_arquivo.csv
 - [Tabela ‘Países’ completa .csv – atualizado em Oct/06/2020](https://mega.nz/file/F0NUUTAT#_UpNs8G_pQZQCQa37Pqcr9wdqsHpP0sXUsis9twAW3A)
 - [Tabela ‘Alunos’ completa .csv – atualizado em Oct/06/2020](https://mega.nz/file/MgVxzKzT#tzUFrfzno7w5ES8dllJa7RwlLSYZuqBC74AULqXTa8M)
 - [Tabela ‘Data_cadastro’ completa .csv – atualizado em Oct/06/2020](https://mega.nz/file/x1VVyYKT#VkeE8gga2YnroZCrk7LQcQsd0vqEBISG7u1cv_NrGqk)
+
+---
+### Dados Limpos:
+- [Tabela ‘Universidades’ completa .csv – atualizado em Oct/06/2020](https://mega.nz/file/4193iSCY#8gPbFU2wmMv-2sPW0tP7-CpIEeiLFslwP8YJ4-EqoaI)
+- [Tabela ‘Países’ completa .csv – atualizado em Oct/06/2020](https://mega.nz/file/Zs9HTITJ#2dgpl_QbW5uxXiaOHZyMTI6pUfT8VO_cVamr6xN6j2M)
+- [Tabela ‘Alunos’ completa .csv – atualizado em Oct/06/2020](https://mega.nz/file/dt0HBKDI#rBMJJSXwgU7PlcaYSDBz-Nxz2IpWmj0X44DnnfmbZWU)
